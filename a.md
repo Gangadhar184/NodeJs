@@ -1,4 +1,5 @@
-### Understanding require('./path') in Node.js (cjs)
+
+### Understanding require ('./path') in Node.js (cjs)
 
 When we run the require function in Node.js, behind the scenes, all the code of the module is wrapped inside a function using an IIFE (Immediately Invoked Function Expression).
 
