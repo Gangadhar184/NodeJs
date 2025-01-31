@@ -15,9 +15,16 @@ setTimeout(()=>{
     console.log("setTimeout called after 5 seconds")
 },5*1000);
 
+
+//this is the async 
 fs.readFile("./file.txt","utf8", (err, data)=>{
     console.log("file data: ", data)    
-})
+});
+
+//this is the Sync
+fs.readFileSync('./file.txt','utf8');//this is sync
+console.log("code will block the main thread and execute only after file read")
+
 
 function addFnc(x, y){
     return x + y;
