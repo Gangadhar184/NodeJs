@@ -1,0 +1,8 @@
+1. Sync code
+2. Async code
+3. Blockign sync code
+4. setTimeout(cbfn, 0)
+5. Non blocking i/o
+6. Main thread
+7. async i/o
+8. libuv and how it works
