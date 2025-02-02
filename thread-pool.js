@@ -22,6 +22,6 @@ crypto.pbkdf2("password","salt",500000,50,'sha512',(err,key)=>{
 })
 //the above 4 prints at the same time - these above 2calls happens in threadpool-order of execution is not gurarentte
 //if i have more than 4, then it waits for one to get empty
-fs.readFile('./file.txt','utf8',()=>{
-    console.log('filereading cb');
-})
+// fs.readFile('./file.txt','utf8',()=>{
+//     console.log('filereading cb');
+// })
